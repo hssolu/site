@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haddad Success Solutions</title>
+    <style>
+        :root {
+            --primary: #003366; /* Deep Navy - Trust & Professionalism */
+            --secondary: #28a745; /* Green - Sustainability */
+            --light: #f4f4f9;
+            --dark: #333;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6; color: var(--dark); }
+        header { background: var(--primary); color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: 500; }
+        
+        .hero { background: linear-gradient(rgba(0,51,102,0.8), rgba(0,51,102,0.8)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1350&q=80'); 
+                height: 60vh; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; }
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+        
+        .container { padding: 4rem 10%; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-top: 4px solid var(--secondary); }
+        
+        form { display: flex; flex-direction: column; max-width: 600px; }
+        input, textarea { padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: var(--secondary); color: white; border: none; padding: 12px; cursor: pointer; font-size: 1rem; border-radius: 4px; transition: 0.3s; }
+        button:hover { background: #218838; }
+
+        footer { background: #222; color: #ccc; text-align: center; padding: 2rem; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo"><strong>HSS</strong>  </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Optimizing Building Infrastructure</h1>
+    <p>Integrated energy solutions that reduce costs and drive sustainability.</p>
+    <button onclick="location.href='#contact'">Get a Free Audit</button>
+</section>
+
+<div class="container" id="about">
+    <h2>About Our Mission</h2>
+    <p>Haddad Success Solutions provides end-to-end building infrastructure upgrades. We specialize in transforming aging facilities into high-performance, LEED-certified assets. With over 40 years of engineering expertise, we bridge the gap between traditional HVAC systems and modern smart-grid technology.</p>
+</div>
+
+<div class="container" id="services" style="background: var(--light);">
+    <h2>Our Core Solutions</h2>
+    <div class="grid">
+        <!-- Block 1 -->
+        <div class="card">
+            <h3>Smart Automation</h3>
+            <p>Advanced BMS (Building Management Systems) to monitor and control energy usage in real-time.</p>
+        </div>
+
+        <!-- Block 2 -->
+        <div class="card">
+            <h3>Mechanical Retrofits</h3>
+            <p>Upgrade legacy HVAC and lighting systems to high-efficiency LED and VRF technology.</p>
+        </div>
+
+        <!-- Block 3 -->
+        <div class="card">
+            <h3>Renewable Integration</h3>
+            <p>On-site solar PV and battery storage solutions tailored for commercial loads.</p>
+        </div>
+
+        <!-- NEW Block 4 -->
+        <div class="card">
+            <h3>Energy-efficient Building Envelope</h3>
+            <p>Building envelope inspections are vital to maintain the safety & durability of a building, as well as controlling the amount of energy used.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2>Connect With Our Engineers</h2>
+    <div class="grid">
+        <div>
+            <form>
+
+            </form>
+        </div>
+        <div>
+            <p><strong>Phone:</strong> <a href="tel:+19543306661">+1 (954) 330-6661</a>
+            <p><strong>Email:</strong> <a href="mailto:info@haddad-success-solutions.com">info@haddad-success-solutions.com</a></p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Haddad Success Solutions LLC. All Rights Reserved.
+</footer>
+
+</body>
+</html>
